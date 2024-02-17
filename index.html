@@ -20,25 +20,39 @@
 
 <body>
   <header>
-    <div class="nav flex">
-      <h1>tailwind starter kit</h1>
-      <div>
-        <i class="fa-regular fa-file-lines"></i>
-        docs
-      </div>
-      <ul class="flex">
-        <li><i class="fa-brands fa-facebook"></i></li>
-        <li><i class="fa-brands fa-twitter"></i></li>
-        <li><i class="fa-brands fa-github"></i></li>
-      </ul>
-      <div>
-        <i class="fa-solid fa-circle-down"></i>
-        download
+    <div class="nav flex absolute text-white z-50 py-3	px-2	item-center justify-between	w-full">
+      <div class="container mx-auto flex items-center	 justify-between px-4	">
+        <h1 class="py-2 mr-4	uppercase	text-sm	font-bold	">tailwind starter kit</h1>
+        <div class="mr-auto py-2 px-3 uppercase text-xs font-bold">
+          <i class="fa-regular fa-file-lines text-lg mr-2		"></i>
+          docs
+        </div>
+        <ul class="flex items-center justify-between ml-auto	">
+          <li class="py-2 px-3 font-bold text-sm"><i class="fa-brands fa-facebook text-lg text-gray 	"></i></li>
+          <li class="py-2 px-3 font-bold text-sm"><i class="fa-brands fa-twitter text-lg text-gray	"></i></li>
+          <li class="py-2 px-3 font-bold text-sm"><i class="fa-brands fa-github text-lg	text-gray"></i></li>
+        </ul>
+        <div class="ml-3	mr-1	py-2 px-3 bg-white	text-blue uppercase rounded text-xs	font-bold">
+          <i class="fa-solid fa-circle-down"></i>
+          download
+        </div>
       </div>
 
     </div>
   </header>
-  <div class="hero w-full h-full bg-cover">
 
+  <div class=" relative " style="min-height: 75vh;">
+    <div class="hero absolute w-full h-full  bg-cover bg-center">
+      <div class="w-full h-full bg-black opacity-75 absolute ">
+         <div class="container flex items-center justify-center	h-full w-full mx-auto flex-wrap	pt-16	pb-32	" >
+          <h1 class="text-white">your story starts with us.</h1>
+          <p>This is a simple example of a Landing Page you can build using Tailwind Starter Kit. It features multiple CSS components based on the Tailwindcss design system.</p>
+
+
+
+         </div>
+      </div>
+
+    </div>
   </div>
 </body>
