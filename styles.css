@@ -19,3 +19,6 @@ body {
 .text-blue{
   color: rgb(51, 65, 85);
 }
+.bg-gray{
+  background-color: rgb(226, 232, 240);
+}
