@@ -25,3 +25,6 @@ body {
 .blue-text-200{
   color: rgb(100, 116, 139);
 }
+.pic{
+  max-width: 120px;
+}
